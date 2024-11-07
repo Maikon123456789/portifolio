@@ -1,0 +1,68 @@
+section{
+    width: 100%;
+    height: 78%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#img_prin{
+    width: 35%;
+    height: 100%;
+}
+
+#textos_prin{
+    width: 30%;
+    height: 70%;
+  
+}
+
+#nome {
+    width: 100%; /* Largura total para melhor ajuste */
+    height: auto;
+    font-family: "Bebas Neue", sans-serif; /* Fonte com backup */
+    font-size: 9vw; /* Mantido em 6vw, ajustável conforme necessário */
+    color: #ffffff; /* Texto branco para contraste limpo */
+    text-align: start;
+    text-transform: uppercase; /* Coloca o texto em letras maiúsculas para um visual mais forte */
+    letter-spacing: 0.05em; /* Espaçamento entre letras para melhorar a legibilidade */
+    line-height: 1.05; /* Ajusta a altura da linha para um espaço mais compacto */
+    text-shadow: 6px 6px 6px #2D1259; /* Adiciona uma leve sombra ao texto para dar profundidade */
+}
+
+#sobrenome {
+    width: 100%;
+    height: auto;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 9vw; /* Mantido em 7vw, ajustável conforme necessário */
+    color: #ffffff;
+    text-align: end;
+    text-transform: uppercase; /* Mantém o visual em letras maiúsculas */
+    letter-spacing: 0.07em; /* Um pouco mais espaçado para o sobrenome */
+    line-height: 1.05; /* Altura da linha mais próxima do valor mínimo */
+    text-shadow: 6px 6px 6px #2D1259; /* Sombra no texto para efeito de profundidade */
+}
+
+
+
+#descricao {
+    width: 100%;
+    height: 37vh; /* Usando 'vh' para garantir altura relativa ao tamanho da viewport */
+    color: white; /* Contraste de cor para o texto */
+    display: flex; /* Para alinhar o texto de forma centralizada */
+    align-items: left; /* Alinha verticalmente o conteúdo */
+    justify-content: center; /* Centraliza o conteúdo horizontalmente */
+    text-align: start; /* Centraliza o texto */
+    font-family: 'Segoe UI', sans-serif; /* Fonte moderna */
+}
+
+#imagem{
+    position: absolute;
+    z-index: -1;
+    width: 90vh;
+    height: auto;
+    top: 20vh;
+    left: 30vh;
+}

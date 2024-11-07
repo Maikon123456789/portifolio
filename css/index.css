@@ -1,0 +1,24 @@
+@import url(./header.css);
+@import url(./section.css);
+@import url(./footer.css);
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Bebas+Neue&family=Bowlby+One+SC&family=Londrina+Shadow&display=swap'); /*principal*/
+
+
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+
+    background-color: black;
+}
+
+/*
+    #2D1259 - roxo
+    #FFF9F1 - branco
+    #0A0B0D - preto
+
+    fonte s: "Archivo Black"
+    font p: "Bowlby One SC"
+*/
+

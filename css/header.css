@@ -1,0 +1,58 @@
+header{
+    width: 90%;
+    height: 12%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5%;
+}
+
+#logo{
+    width: 30%;
+    height: 80%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#btns_cabecalho{
+    width: 30%;
+    height: 80%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+    background-color: yellow;
+}
+
+#icone_logo{
+    width: 5vw;
+    height: 5vw;
+    background-image: url(../assets/img_principal.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+#profissao{
+    width: 80%;
+    height: 80%;
+    font-family: "Archivo Black";
+    font-size: 0.65vw;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.btn_cabecalho{
+    width: 30%;
+    height: 80%;
+
+    background-color: red;
+}
